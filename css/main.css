@@ -1,0 +1,87 @@
+body {
+    background-image: url(bg.jpg);
+    background-size: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Headers*/
+h1 {
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    z-index: 1;
+    background-color: #191919;
+    color: #ffffff;
+    padding: 50px;
+    top: -40px;
+    margin: 0px;
+}
+
+h2 {
+    position: relative;
+    background-color: #DFE2DB;
+    padding-right: -10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+/*Misc*/
+textarea {
+    resize: none;
+    padding: 50px;
+}
+
+section {
+    position: absolute;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    top: 14%;
+    right: 61%;
+    background-color: #FFF056;
+}
+
+form {
+    position: relative;
+    left: 25px;
+}
+
+/*Classes*/
+.plaatje {
+    position: relative;
+    height: 100px;
+    width: 200px;
+    top: 78px;
+    left: 350px;
+    z-index: 0;
+    margin:0;
+    padding:0;
+}
+
+.Text {
+    z-index: 1;
+    padding-left: 40px;
+    padding-right: -40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Knop {
+    position: relative;
+    top: 10px;
+    left: -70px;
+}
+
+.link {
+    position: relative;
+    right: -20px;
+}
+
+.Input {
+    margin: 10px;
+}
